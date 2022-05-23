@@ -1,0 +1,200 @@
+#title {
+    background-color: rgba(8, 185, 129, 0.941);
+    color: rgb(0, 0, 0);
+  }
+  h1 {
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+  }
+  
+  h2 {
+    font-family: "montserrat";
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+  }
+  
+  h3 {
+    font-family: "montserrat";
+    font-weight: 900;
+  }
+  
+  p {
+    color: #2d2d2d;
+
+  }
+  
+  .container-fluid {
+    padding: 3% 15% 8%;
+    
+  }
+  
+  body {
+    font-family: "Montserrat";
+  }
+  
+  /* Navagation BAr */
+  
+  .navbar {
+    padding: 0 0 4.5rem;
+  }
+  
+  .navbar-brand {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #000;
+
+  }
+  
+  .nav-item {
+    padding: 0 18px;
+  }
+  
+  .nav-link {
+    font-size: 1.5rem;
+    font-family: "montserrat-light";
+  }
+  
+  /* download Buttons */
+  
+  .download-button {
+    margin: 5% 3% 5% 0;
+  }
+  
+  /* Title Image */
+  
+  .title-image {
+    width: 30%;
+    transform: rotate(30deg);
+    position: absolute;
+    right: 15%;
+  }
+  
+  /* Feature sections */
+  
+  #features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .feature-box {
+    padding: 5%;
+    text-align: center;
+  }
+  
+  .icon {
+    color: rgb(0, 255, 170);
+    margin-bottom: 1rem;
+  }
+  
+  .icon:hover {
+    color: rgb(0, 234, 255);
+  }
+  
+  /* Testimonials Section */
+  
+  #testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: rgb(0, 255, 170);
+    color: rgb(0, 0, 0);
+  }
+  
+  .testimonials-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+  }
+  
+  .carousel-item {
+    padding: 7% 15%;
+  }
+  
+  #press {
+    background-color: rgb(0, 255, 170);
+    text-align: center;
+    padding-bottom: 3%;
+  }
+  
+  .press-logo1 {
+      height: 15%;
+    width: 15%;
+    margin: 20px 20px 50px;
+  }
+
+  .press-logo {
+      height: 15%;
+    width: 15%;
+    margin: 20px 20px 50px;
+  }
+  
+  /* pricing section */
+  
+  #pricing {
+    padding: 100px;
+    text-align: center;
+  }
+
+  .card-body{
+      font-size: 1rem;
+
+  }
+  
+  .pricing-column {
+    padding: 3% 2%;
+  }
+  
+  /* Call for action section */
+  
+  #cta {
+    background-color: rgb(0, 255, 170);
+    text-align: center;
+    padding: 7% 15;
+  }
+  
+  .cta {
+    font-size: 2.5rem;
+    line-height: 1.5;
+  }
+  
+  /* footer section */
+  
+  #footer {
+    font-size: 1rem;
+    text-align: center;
+    padding: 7% 15;
+  }
+  
+  .footer {
+    color: #7c7c7c92;
+  }
+  
+  .footer-link {
+    margin: 20px 10px;
+  }
+  
+  /* media break section  */
+  
+  @media (max-width: 1228px) {
+    .title-image {
+      margin-left: 45px;
+      position: absolute;
+      right: 15%;
+    }
+  }
+  
+  @media (max-width: 1028px) {
+    .title-image {
+      position: static;
+      transform: rotate(0);
+      width: 60%;
+    }
+    #title {
+      text-align: center;
+    }
+  }
+  
